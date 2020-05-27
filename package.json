@@ -1,0 +1,39 @@
+{
+  "name": "corpoelec_ggdc_api_data",
+  "version": "1.3.5",
+  "description": "API de trabajo para ELmentos de datos con postgresql REST-API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvancipiran/corpoelec-ggdc-api-data.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "rest-api",
+    "eaen",
+    "corpoelec",
+    "node",
+    "javascript",
+    "express",
+    "morgan",
+    "nodemon"
+  ],
+  "author": "Yván M. Cipirán N.",
+  "license": "X11",
+  "bugs": {
+    "url": "https://github.com/yvancipiran/corpoelec-ggdc-api-data/issues"
+  },
+  "homepage": "https://github.com/yvancipiran/corpoelec-ggdc-api-data#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
